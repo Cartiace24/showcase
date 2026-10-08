@@ -32,6 +32,7 @@ export const templates: Template[] = [
     included: ['Responsive React portfolio', 'Reusable project and artwork components', 'Editable local project data'],
     techStack: ['React', 'TypeScript', 'Tailwind CSS', 'Framer Motion'],
     previewImages: { desktop: '/templates/devport/desktop.webp', mobile: '/templates/devport/mobile.webp', alt: 'Actual Dev Portfolio homepage preview for a developer portfolio' },
+    demoUrl: 'https://devportfolio-smoky.vercel.app/',
     status: 'Coming soon', tags: ['Developer', 'Projects', 'Responsive'], number: '01', theme: 'folio',
   },
   {
@@ -44,6 +45,7 @@ export const templates: Template[] = [
     included: ['Responsive page layouts', 'Gallery and commission sections', 'Editable portfolio content'],
     techStack: ['React', 'TypeScript', 'Motion', 'Supabase'],
     previewImages: { desktop: '/templates/artport/desktop.webp', mobile: '/templates/artport/mobile.webp', alt: 'Actual Art Portfolio artist portfolio homepage with sample artwork' },
+    demoUrl: 'https://artportfolio-alpha.vercel.app/',
     status: 'Coming soon', tags: ['Illustration', 'Gallery', 'Commissions'], number: '02', theme: 'folio',
   },
   {
@@ -56,6 +58,7 @@ export const templates: Template[] = [
     included: ['Interactive gallery experience', 'Responsive portfolio shell', 'Editable artwork archive data'],
     techStack: ['Three.js', 'Vite', 'JavaScript'],
     previewImages: { desktop: '/templates/artportv2/desktop.webp', mobile: '/templates/artportv2/mobile.webp', alt: 'Actual Art Portfolio V2 interactive gallery; demo imagery notice is visible' },
+    demoUrl: 'https://artportv2.vercel.app/',
     status: 'Coming soon', tags: ['Interactive', 'Gallery', 'Three.js'], number: '03', theme: 'folio',
   },
   {
@@ -68,6 +71,7 @@ export const templates: Template[] = [
     included: ['Static HTML, CSS, and JavaScript source', 'Responsive portfolio sections', 'Interactive 3D model and engineering demos'],
     techStack: ['HTML', 'CSS', 'JavaScript', 'Three.js'],
     previewImages: { desktop: '/templates/civil-engineering/desktop.webp', mobile: '/templates/civil-engineering/mobile.webp', alt: 'Actual civil engineering portfolio homepage featuring an interactive residential model' },
+    demoUrl: 'https://civileng-port.vercel.app/',
     status: 'Coming soon', tags: ['Engineering', 'Interactive', 'Three.js'], number: '04', theme: 'folio',
   },
 ]
