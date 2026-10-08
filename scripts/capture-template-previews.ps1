@@ -2,6 +2,7 @@
 param(
   [string]$Url = 'http://127.0.0.1:5183/',
   [string]$OutputDirectory,
+  [int]$MobileWidth = 430,
   [string]$BrowserPath = 'C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe',
   [string]$PythonPath = 'C:\Users\Cartiace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe'
 )
@@ -20,7 +21,7 @@ New-Item -ItemType Directory -Path $profilePath -Force | Out-Null
 
 $captures = @(
   @{ Name = 'desktop.png'; Width = 1440; Height = 1100; PageUrl = $Url },
-  @{ Name = 'mobile.png'; Width = 390; Height = 844; PageUrl = $Url }
+  @{ Name = 'mobile.png'; Width = $MobileWidth; Height = 844; PageUrl = $Url }
 )
 
 foreach ($capture in $captures) {

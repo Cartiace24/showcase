@@ -15,7 +15,7 @@ export interface Template {
   previewImages: { desktop: string; mobile: string; alt: string }
   demoUrl?: string
   price?: number
-  status: 'Coming soon' | 'Available'
+  status: 'Price on request' | 'Available'
   tags: string[]
   number: string
   theme: string
@@ -33,7 +33,7 @@ export const templates: Template[] = [
     techStack: ['React', 'TypeScript', 'Tailwind CSS', 'Framer Motion'],
     previewImages: { desktop: '/templates/devport/desktop.webp', mobile: '/templates/devport/mobile.webp', alt: 'Actual Dev Portfolio homepage preview for a developer portfolio' },
     demoUrl: 'https://devportfolio-smoky.vercel.app/',
-    status: 'Coming soon', tags: ['Developer', 'Projects', 'Responsive'], number: '01', theme: 'folio',
+    status: 'Price on request', tags: ['Developer', 'Projects', 'Responsive'], number: '01', theme: 'folio',
   },
   {
     id: 'artport', slug: 'artport', name: 'Art Portfolio', category: 'Creative',
@@ -46,7 +46,7 @@ export const templates: Template[] = [
     techStack: ['React', 'TypeScript', 'Motion', 'Supabase'],
     previewImages: { desktop: '/templates/artport/desktop.webp', mobile: '/templates/artport/mobile.webp', alt: 'Actual Art Portfolio artist portfolio homepage with sample artwork' },
     demoUrl: 'https://artportfolio-alpha.vercel.app/',
-    status: 'Coming soon', tags: ['Illustration', 'Gallery', 'Commissions'], number: '02', theme: 'folio',
+    status: 'Price on request', tags: ['Illustration', 'Gallery', 'Commissions'], number: '02', theme: 'folio',
   },
   {
     id: 'artportv2', slug: 'artportv2', name: 'Art Portfolio V2', category: 'Creative',
@@ -59,7 +59,7 @@ export const templates: Template[] = [
     techStack: ['Three.js', 'Vite', 'JavaScript'],
     previewImages: { desktop: '/templates/artportv2/desktop.webp', mobile: '/templates/artportv2/mobile.webp', alt: 'Actual Art Portfolio V2 interactive gallery; demo imagery notice is visible' },
     demoUrl: 'https://artportv2.vercel.app/',
-    status: 'Coming soon', tags: ['Interactive', 'Gallery', 'Three.js'], number: '03', theme: 'folio',
+    status: 'Price on request', tags: ['Interactive', 'Gallery', 'Three.js'], number: '03', theme: 'folio',
   },
   {
     id: 'civil-engineering', slug: 'civil-engineering', name: 'Civil Engineering', category: 'Professional',
@@ -72,7 +72,7 @@ export const templates: Template[] = [
     techStack: ['HTML', 'CSS', 'JavaScript', 'Three.js'],
     previewImages: { desktop: '/templates/civil-engineering/desktop.webp', mobile: '/templates/civil-engineering/mobile.webp', alt: 'Actual civil engineering portfolio homepage featuring an interactive residential model' },
     demoUrl: 'https://civileng-port.vercel.app/',
-    status: 'Coming soon', tags: ['Engineering', 'Interactive', 'Three.js'], number: '04', theme: 'folio',
+    status: 'Price on request', tags: ['Engineering', 'Interactive', 'Three.js'], number: '04', theme: 'folio',
   },
 ]
 

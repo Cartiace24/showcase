@@ -2,7 +2,7 @@
 
 A curated catalog of portfolio website templates. Each product page includes the intended audience, features, technology, customization notes, and real screenshots captured from the corresponding project.
 
-The storefront is a showcase for the templates, not a portfolio template itself. Demo and purchase actions are labeled as coming soon until those services are available.
+The storefront is a showcase for the templates, not a portfolio template itself. Live demos open the published projects. Pricing is available by email; the storefront does not process payments or deliver files.
 
 ## Run locally
 
@@ -36,11 +36,11 @@ The capture script uses headless Microsoft Edge and Python with Pillow/WebP supp
 powershell -ExecutionPolicy Bypass -File .\scripts\capture-template-previews.ps1
 ```
 
-Pass `-Url` and `-OutputDirectory` to capture another running project. See [`docs/template-preview-assets.md`](docs/template-preview-assets.md) for source projects and their local URLs. Captures include desktop and mobile views and are optimized to WebP.
+Pass `-Url` and `-OutputDirectory` to capture another running project. See [`docs/template-preview-assets.md`](docs/template-preview-assets.md) for source projects and their local URLs. Captures include desktop and 430px mobile views and are optimized to WebP.
 
 ## Catalog content
 
-- **Devport** — a code-led developer portfolio.
+- **Dev Portfolio** — a code-led developer portfolio.
 - **Art Portfolio** — an illustrated portfolio with a gallery and commission sheet.
 - **Art Portfolio V2** — an interactive artwork archive built with Three.js.
 - **Civil Engineering** — a technical portfolio with an interactive residential study.
